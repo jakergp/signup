@@ -1,1 +1,87 @@
+body {
+    margin: 0px;
+    font-family: Geist Mono;
+    display: flex;
+}
 
+#title {
+    margin-top: 170px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    min-width: max-content;
+}
+
+#logo {
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    bottom: 15px;
+    left: 10px;
+}
+
+.link,
+.img_link {
+    color: white;
+    font-size: 16px;
+    margin-top: 630px;
+}
+
+#img_container {
+    background-image: url("stairs.jpg");
+    width: 675px;
+    height: 100vh;
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#form_container {
+    width: 100%;
+    padding: 20px;
+}
+
+label,
+input {
+    display: block;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 6px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    border: 1px black solid;
+    width: min-content;
+    padding: 32px 16px;
+    border-radius: 6px;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 34%;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.login {
+    margin-left: 5px;
+}
